@@ -1,0 +1,99 @@
+@media screen and (max-width: 440px) {
+  :root{font-size: 8px;}
+}
+.Toastify{font-size: 1.6rem;}
+.Toastify__toast-container{width: fit-content; min-width: 32rem; max-width: 50%;}
+.Toastify__toast-container--top-right{top: calc(100vh - 9rem);}
+
+/* 타이틀 */
+.comm-title{
+  font-family: "Pretendard-700";
+  font-size: 5rem;
+  letter-spacing: -0.1rem;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 8rem;
+}
+.comm-title::before{
+  content: '';
+  position: absolute;
+  bottom: -2rem;
+  width: 100%;
+  border-bottom: 0.7rem solid #2288E3;
+}
+
+/* 로그인/회원가입 */
+.login-wrap{
+  margin: 10rem auto 0 auto; 
+  max-width: 44rem;
+  min-width: 28rem;
+  padding: 0 2rem;
+}
+.login-wrap button{
+  font-family: "Pretendard-500";
+  font-size: 2rem;
+  color: #fff;
+  background: #2288E3;
+  width: 100%;
+  height: 6rem;
+  border: 1px solid #2288E3;
+  cursor: pointer;
+}
+.login-wrap button:hover,
+.login-wrap button:focus{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* 입력폼 - CustomInput */
+.comm-input label{
+  font-family: "Pretendard-600";
+  font-size: 2rem;
+  color: #666666;
+}
+.comm-input input{
+  font-family: "Pretendard-400";
+  font-size: 1.6rem;
+  background: #fff;
+  color: #666666;
+  border: 1px solid #AAAAAA;
+  width: 100%;
+  height: 5rem;
+  padding: 0 1.2rem;
+  margin: 1rem 0 3rem 0;
+  box-sizing: border-box;
+}
+.comm-input input::placeholder{
+  font-family: "Pretendard-400";
+  font-size: 1.6rem;
+  color: #AAAAAA;
+}
+
+/* 사진첩 - MainPage */
+.wrap{
+  padding: 0 3rem;
+  margin: 4rem 0 6rem 0;
+}
+
+/* 버튼 */
+.btn-basic{
+  font-family: "Pretendard-500";
+  font-size: 1.8rem;
+  letter-spacing: -0.036rem;
+  color: #061F4D;
+  background: #FFFFFF;
+  border: 1px solid #061F4D;
+  height: 4rem;
+  padding: 0 3.4rem 0.2rem 3.4rem;
+  cursor: pointer;
+  white-space: nowrap;
+  display: block;
+  transition: .5s all ease;
+}
+.btn-basic:hover{
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+  background: #F7F7F7;
+  transition: .5s all ease;
+}
+

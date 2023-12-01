@@ -1,0 +1,26 @@
+.toolbar{
+  font-family: "Pretendard-600";
+  font-size: 2rem;
+  letter-spacing: -0.04rem;
+  padding: 2rem 3rem;
+  display: flex; align-items: center;
+
+  position: sticky; top: 0; z-index: 999;
+  background: #fff; height: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.toolbar a{
+  text-decoration: none;
+  color: #2288E3;
+  margin: 0 -1rem;
+  padding: 0.5rem 1rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.toolbar a:hover{
+  box-shadow: inset 10rem 0 0 0 #2288E3;
+  color: #fff;
+}
+.toolbar .line{
+  border-right: 1px solid #2288E3;
+  height: 1.6rem;
+}

@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+/* ======================================================== */
+/* font : Pretendard */
+/* ======================================================== */
+@font-face {
+  font-family: "Pretendard-100";
+  font-weight: 100;
+  src: url("../fonts/Pretendard-Thin.otf") format('opentype'),
+       url("../fonts/Pretendard-Thin.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-200";
+  font-weight: 200;
+  src: url("../fonts/Pretendard-ExtraLight.otf") format('opentype'),
+       url("../fonts/Pretendard-ExtraLight.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-300";
+  font-weight: 300;
+  src: url("../fonts/Pretendard-Light.otf") format('opentype'),
+       url("../fonts/Pretendard-Light.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-400";
+  font-weight: 400;
+  src: url("../fonts/Pretendard-Regular.otf") format('opentype'),
+       url("../fonts/Pretendard-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-500";
+  font-weight: 500;
+  src: url("../fonts/Pretendard-Medium.otf") format('opentype'),
+       url("../fonts/Pretendard-Medium.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-600";
+  font-weight: 600;
+  src: url("../fonts/Pretendard-SemiBold.otf") format('opentype'),
+       url("../fonts/Pretendard-SemiBold.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-700";
+  font-weight: 700;
+  src: url("../fonts/Pretendard-Bold.otf") format('opentype'),
+       url("../fonts/Pretendard-Bold.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-800";
+  font-weight: 800;
+  src: url("../fonts/Pretendard-ExtraBold.otf") format('opentype'),
+       url("../fonts/Pretendard-ExtraBold.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Pretendard-900";
+  font-weight: 900;
+  src: url("../fonts/Pretendard-Black.otf") format('opentype'),
+       url("../fonts/Pretendard-Black.woff") format('woff');
+}
+
+/* ======================================================== */
+/* font - English : AvenirNext */
+/* ======================================================== */
+/* @font-face {
+  font-family: "AvenirNext-400";
+  font-weight: 400;
+  src: url("../../fonts/AvenirNextLTPro-Regular.otf") format('opentype');
+}
+@font-face {
+  font-family: "AvenirNext-600";
+  font-weight: 600;
+  src: url("../../fonts/AvenirNextLTPro-Demi.otf") format('opentype');
+}
+@font-face {
+  font-family: "AvenirNext-700";
+  font-weight: 700;
+  src: url("../../fonts/AvenirNextLTPro-Bold.otf") format('opentype');
+}
+.title-eng{ font-family: "AvenirNext-600";
+  font-size: 3.8rem; line-height: 5.1rem; color: #222222;}
+.f-eng-400{font-family: "AvenirNext-400" !important;}
+.f-eng-600{font-family: "AvenirNext-600" !important;}
+.f-eng-700{font-family: "AvenirNext-700" !important;} */
+
+/* ======================================================== */
+/* font-weight (font-bold) */
+/* ======================================================== */
+.fw-100{font-family: "Pretendard-100" !important;}
+.fw-200{font-family: "Pretendard-200" !important;}
+.fw-300{font-family: "Pretendard-300" !important;}
+.fw-400{font-family: "Pretendard-400" !important;}
+.fw-500{font-family: "Pretendard-500" !important;}
+.fw-600{font-family: "Pretendard-600" !important;}
+.fw-700{font-family: "Pretendard-700" !important;}
+.fw-800{font-family: "Pretendard-800" !important;}
+.fw-900{font-family: "Pretendard-900" !important;}
+
+
+/* ======================================================== */
+/* font-size */
+/* ======================================================== */
+:root{font-size: 10px;};
+.fs-10{font-size: 1rem !important;}
+.fs-11{font-size: 1.1rem !important;}
+.fs-12{font-size: 1.2rem !important;}
+.fs-13{font-size: 1.3rem !important;}
+.fs-14{font-size: 1.4rem !important;}
+.fs-15{font-size: 1.5rem !important;}
+.fs-16{font-size: 1.6rem !important;}
+.fs-17{font-size: 1.7rem !important;}
+.fs-18{font-size: 1.8rem !important;}
+.fs-19{font-size: 1.9rem !important;}
+.fs-20{font-size: 2rem !important;}
+.fs-21{font-size: 2.1rem !important;}
+.fs-22{font-size: 2.2rem !important;}
+.fs-23{font-size: 2.3rem !important;}
+.fs-24{font-size: 2.4rem !important;}
+.fs-25{font-size: 2.5rem !important;}
+.fs-26{font-size: 2.6rem !important;}
+.fs-27{font-size: 2.7rem !important;}
+.fs-28{font-size: 2.8rem !important;}
+.fs-29{font-size: 2.9rem !important;}
+.fs-30{font-size: 3rem !important;}
+
+
+/* ======================================================== */
+/* Paragraph set */
+/* ======================================================== */
+.f-16-400{
+  font-family: "Pretendard-400" !important; 
+  font-size: 1.6rem !important; 
+  line-height: 1 !important;
+}
+.f-16-500{
+  font-family: "Pretendard-500" !important; 
+  font-size: 1.6rem !important; 
+  line-height: 1 !important;
+}
+.f-17-400{
+  font-family: "Pretendard-400" !important; 
+  font-size: 1.7rem !important; 
+  line-height: 1 !important;
+}
+.f-17-500{
+  font-family: "Pretendard-500" !important; 
+  font-size: 1.7rem !important; 
+  line-height: 1 !important;
+}
+.f-18-400{
+  font-family: "Pretendard-400" !important; 
+  font-size: 1.8rem !important; 
+  line-height: 1 !important;
+}
+.f-18-500{
+  font-family: "Pretendard-500" !important; 
+  font-size: 1.8rem !important; 
+  line-height: 1 !important;
+}
+.f-19-400{
+  font-family: "Pretendard-400" !important; 
+  font-size: 1.9rem !important; 
+  line-height: 1 !important;
+}
+.f-19-500{
+  font-family: "Pretendard-500" !important; 
+  font-size: 1.9rem !important; 
+  line-height: 1 !important;
+}
+.f-20-400{
+  font-family: "Pretendard-400" !important; 
+  font-size: 2rem !important; 
+  line-height: 1 !important;
+}
+.f-20-500{
+  font-family: "Pretendard-500" !important; 
+  font-size: 2rem !important; 
+  line-height: 1 !important;
+}
+
+
+/* ======================================================== */
+/* line-height */
+/* ======================================================== */
+.lh-basic {line-height: unset !important;}  /* 1 */
+.lh-0   {line-height: 0 !important;}
+.lh-100 {line-height: 1 !important;}        /* 100% */
+.lh-110 {line-height: 1.1 !important;}      /* 110% */
+.lh-120 {line-height: 1.2 !important;}      /* 120% */
+.lh-130 {line-height: 1.3 !important;}      /* 130% */
+.lh-140 {line-height: 1.4 !important;}      /* 140% */
+.lh-150 {line-height: 1.5 !important;}      /* 150% */
+.lh-160 {line-height: 1.6 !important;}      /* 160% */
+.lh-170 {line-height: 1.7 !important;}      /* 170% */
+.lh-180 {line-height: 1.8 !important;}      /* 180% */
+.lh-190 {line-height: 1.9 !important;}      /* 190% */
+.lh-200 {line-height: 2 !important;}        /* 200% */
+
+
+/* ======================================================== */
+/* font-color */
+/* ======================================================== */
+.text-white{color: #ffffff !important;}
+.text-black{color: #222222 !important;}
+.text-gray-900{color: #999999 !important;}
+.text-gray-800{color: #888888 !important;}
+.text-gray-700-icon{color: #7B86A7 !important}
+.text-gray-700{color: #777777 !important}
+.text-gray-600{color: #666666 !important;}
+.text-gray-500{color: #555555 !important;}
+.text-gray-400{color: #444444 !important;}
+.text-color-none{color: transparent !important;}
+.text-blue{color: #003A83 !important;}
+.text-blue2{color: #2288E3 !important;}
+
+
+/* ======================================================== */
+/* text-align */
+/* ======================================================== */
+.text-l {text-align: left !important;}
+.text-c {text-align: center !important;}
+.text-r {text-align: right !important;}
+
+
+/* ======================================================== */
+/* underline */
+/* ======================================================== */
+.underline {
+  text-decoration: underline !important;
+  text-underline-position: under !important;
+  text-underline-offset: 1px !important;
+}
+
+
+/* ======================================================== */
+/* word-break */
+/* ======================================================== */
+.keep-all{word-break: keep-all;}
+
+
+/* ======================================================== */
+/* selection color(drag) */
+/* ======================================================== */
+/* ::selection {background-color: #e6f0f8; color: #666;} */
+::selection {background-color: #133880; color: #f2f2f2;}
+
+
+/* ======================================================== */
+/* Scroll */
+/* ======================================================== */
+::-webkit-scrollbar{width: 8px; height: 8px; background: #f3f3f3;}
+::-webkit-scrollbar-track{background: #f3f3f3; border-radius: 8px;}
+::-webkit-scrollbar-thumb{background-color: #dbdbdf; border-radius: 8px;}
+html, div, .table-wrap, .overflow-auto{scrollbar-color: #dbdbdf #f3f3f3; scrollbar-width: thin;}
+
+/* overflow */
+.scroll-hidden{overflow: hidden !important;}
+.scroll-x-auto{overflow-x: auto !important;}
+.scroll-y-auto{overflow-y: auto !important;}
+.scroll-auto{overflow: auto !important;}
+
+
+
+

@@ -1,0 +1,21 @@
+.progress-bar-wapper{
+  font-family: "Pretendard-700";
+  font-size: 1.6rem;
+  border: 1px solid #FAFAFA;
+  background: #FAFAFA;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  height: 2rem;
+}
+
+.progress-bar-wapper div{
+  background: #2288E3;
+  border-radius: 10rem;
+  height: 2rem;
+  padding-top: 0.2rem;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.progress-bar-wapper div.black{color: #666666;}
+.progress-bar-wapper div.white{color: #fff;}
