@@ -82,7 +82,7 @@ K3hBr5pHKqPOxGOG
 
 
 
-"C:\Users\loo4o\Desktop\image-upload\client\node_modules\jest-changed-files\build\git.js"
+
 
 _redirects
 /* /index.html 200
